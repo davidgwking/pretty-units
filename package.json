@@ -1,0 +1,36 @@
+{
+  "name": "pretty-units",
+  "version": "0.0.1",
+  "description": "easily transform your measurements to a readable string",
+  "license": "MIT",
+  "author": "David King <davidgwking@gmail.com>",
+  "maintainers": [
+    "David King <davidgwking@gmail.com>"
+  ],
+  "keywords": [
+    "format",
+    "magnitude",
+    "metric",
+    "pretty",
+    "si",
+    "units"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/davidgwking/pretty-units.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "eslint": "^0.13.0",
+    "mocha": "^2.0.1"
+  },
+  "main": "./lib/pretty-units.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "eslint lib/**.js test/**.js && mocha"
+  }
+}
