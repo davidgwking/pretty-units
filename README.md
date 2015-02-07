@@ -50,8 +50,8 @@ Output is always rounded to two decimal places. Naturally, this means that *pret
 // switch to verbose output
 > punits.verbose = true;
 
-> punits(9000) + 'meter';
-'9 kilometer'
+> punits(9000) + 'meters';
+'9 kilometers'
 
 > punits(0.001) + 'liter';
 '1 milliliter'
