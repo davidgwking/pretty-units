@@ -1,4 +1,6 @@
 # pretty-units
+[![Build Status][travis-image]][travis-url]
+[![NPM][npm-image]][npm-url]
 
 Have you received a measurement that had an unsightly or unpredictable order of magnitude?
 
@@ -55,3 +57,8 @@ Output is always rounded to two decimal places. Naturally, this means that *pret
 '1 milliliter'
 
 ```
+
+[travis-image]: https://img.shields.io/travis/davidgwking/pretty-units.svg?style=flat&branch=master
+[travis-url]: https://travis-ci.org/davidgwking/pretty-units
+[npm-image]: http://img.shields.io/npm/v/pretty-units.svg
+[npm-url]: https://www.npmjs.com/package/pretty-units
